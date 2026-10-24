@@ -1,0 +1,7 @@
+# 运行期依赖
+PySide6-Essentials>=6.6.0
+rapidfuzz>=3.0.0
+matplotlib>=3.7.0
+
+# 打包（开发期）
+pyinstaller>=6.0.0

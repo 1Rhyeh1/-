@@ -1,0 +1,169 @@
+/* 现代扁平风格 QSS 样式表 */
+QWidget {
+    font-family: "Microsoft YaHei", "Segoe UI", "PingFang SC";
+    font-size: 14px;
+    color: #2c3e50;
+}
+
+QMainWindow, #RootWidget {
+    background: #f4f6fb;
+}
+
+#Header {
+    background: #ffffff;
+    border-bottom: 1px solid #e6ebf5;
+}
+
+#HeaderTitle {
+    font-size: 20px;
+    font-weight: 700;
+    color: #22335c;
+}
+
+#HeaderSub {
+    color: #7b8aa5;
+    font-size: 13px;
+}
+
+QTabWidget::pane {
+    border: none;
+    background: transparent;
+}
+
+QTabBar::tab {
+    background: transparent;
+    padding: 10px 26px;
+    margin: 6px 4px 0 4px;
+    border-radius: 10px;
+    color: #607d8b;
+    font-weight: 600;
+}
+
+QTabBar::tab:selected {
+    background: #4a6cf7;
+    color: white;
+}
+
+QTabBar::tab:hover:!selected {
+    background: #e8eeff;
+}
+
+QFrame#Card {
+    background: #ffffff;
+    border-radius: 14px;
+    border: 1px solid #e6ebf5;
+}
+
+QPushButton {
+    background: #4a6cf7;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    padding: 9px 20px;
+    font-weight: 600;
+}
+
+QPushButton:hover {
+    background: #3a5ce0;
+}
+
+QPushButton:pressed {
+    background: #2f4fcc;
+}
+
+QPushButton:disabled {
+    background: #bcc6e6;
+    color: #eef1fa;
+}
+
+QPushButton#Secondary {
+    background: #e8ecf5;
+    color: #33415c;
+}
+
+QPushButton#Secondary:hover {
+    background: #d9e0f0;
+}
+
+QLineEdit {
+    border: 2px solid #d6dbe8;
+    border-radius: 9px;
+    padding: 9px 12px;
+    background: #ffffff;
+    font-size: 16px;
+}
+
+QLineEdit:focus {
+    border-color: #4a6cf7;
+}
+
+QComboBox {
+    border: 2px solid #d6dbe8;
+    border-radius: 9px;
+    padding: 6px 10px;
+    background: #ffffff;
+    min-width: 90px;
+}
+
+QComboBox:focus {
+    border-color: #4a6cf7;
+}
+
+QLabel#PromptWord {
+    font-size: 36px;
+    font-weight: 700;
+    color: #22335c;
+}
+
+QLabel#PromptMeaning {
+    font-size: 22px;
+    font-weight: 600;
+    color: #22335c;
+}
+
+QLabel#Phonetic {
+    color: #7b8aa5;
+    font-size: 15px;
+}
+
+QLabel#FeedbackOk {
+    color: #1a9e5f;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+QLabel#FeedbackBad {
+    color: #e04b4b;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+QRadioButton {
+    padding: 8px 10px;
+    border: 2px solid #e6ebf5;
+    border-radius: 9px;
+}
+
+QRadioButton:hover {
+    border-color: #4a6cf7;
+}
+
+QRadioButton:checked {
+    border-color: #4a6cf7;
+    background: #eef2ff;
+}
+
+QTableWidget {
+    border: 1px solid #e6ebf5;
+    border-radius: 10px;
+    gridline-color: #eef2fa;
+    background: #ffffff;
+}
+
+QHeaderView::section {
+    background: #f0f4fb;
+    padding: 8px;
+    border: none;
+    color: #4a5a78;
+    font-weight: 700;
+}
